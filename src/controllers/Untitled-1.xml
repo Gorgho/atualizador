@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:tns="http://diretrixon.com/WebServices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/">
+    <soap:Header>
+        <Login>
+            <Usuario></Usuario>
+            <Senha></Senha>
+            <Cliente></Cliente>
+        </Login>
+    </soap:Header>
+    <soap:Body>
+        <LocalizadorMaisOpcoes xmlns="http://diretrixon.com/WebServices">
+        <idProduto>7</idProduto>
+        <dataNascimentoAbertura></dataNascimentoAbertura>
+        <tipoPessoa>pf</tipoPessoa>
+        <nome></nome>
+        <cidade></cidade>
+        <uf></uf>
+        <cep></cep>
+        <telefone></telefone>
+        <email>roberto.etb.lp@gmail.com</email>
+        </LocalizadorMaisOpcoes>    
+    </soap:Body>
+</soap:Envelope>

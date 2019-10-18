@@ -1,0 +1,22 @@
+{
+  "name": "atualizador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pipedrive": "^8.0.0",
+    "request-promise": "^4.2.4",
+    "soap": "^0.29.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect ./bin/server.js",
+    "start": "nodemon ./bin/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
